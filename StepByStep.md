@@ -11,3 +11,6 @@ Start from a new machine with Windows 10.
 ### 下载 VS code
 
 ## 建立远程连接
+
+
+## 搭建个人远程服务器
