@@ -16,6 +16,7 @@
 - [Vim](TextEdit/Vim.md)
 - [Nano](TextEdit/Nano.md)
 - [VS Code](TextEdit/VSCode.md)
+- [sed(流编辑器)](TextEdit/sed.md)
 
 ## 环境配置
 
