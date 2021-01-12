@@ -30,4 +30,4 @@
 
 ### 文档
 
-- Zeal (Windows/Linux)
+- [Zeal (Windows/Linux)](Unsorted/Zeal.md)
