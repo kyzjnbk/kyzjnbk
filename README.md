@@ -22,5 +22,12 @@
 
 ## 编程语言
 
-- [C++](Cpp/Cpp.md)
+- [Shell](Shell/Shell.md)
 - [Python](Python/Python.md)
+- [C++](Cpp/Cpp.md)
+
+## 实用软件
+
+### 文档
+
+- Zeal (Windows/Linux)
