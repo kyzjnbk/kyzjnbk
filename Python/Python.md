@@ -26,3 +26,12 @@ mkdir ~/.pip && echo -e "[global]\nindex-url = https://pypi.tuna.tsinghua.edu.cn
 - [numba.cuda](numba/cuda.ipynb)
 
 ## [Tensorflow](tensorflow/Tensorflow.md)
+
+## References
+
+### 基础教程
+
+There are many online resources for learning the Python language; here are three of the best:\
+https://www.learnpython.org/ -- Introductory Python 3 tutorials\
+https://www.codecademy.com/learn/learn-python -- Free to sign up; introductory Python 2 tutorials (printing is a bit different than Python 3)\
+https://www.youtube.com/watch?v=rfscVS0vtbw -- 4.5 hour video covering all the Python basics
