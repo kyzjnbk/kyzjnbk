@@ -6,11 +6,16 @@ Start from a new machine with Windows 10.
 
 [微软的官方教程](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
 
-### 配置 WSL
+<br />
 
-### 下载安装 Ubuntu
+### 下载 VS Code
 
-### 下载 VS code
+Download Visual Studio Code from your explorer.
+
+### [配置 WSL](Unsorted/WSL.md)
+
+<br />
+
 
 ## 建立远程连接
 
