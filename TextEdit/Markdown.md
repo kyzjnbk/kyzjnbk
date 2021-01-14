@@ -8,7 +8,7 @@ https://www.runoob.com/markdown/md-tutorial.html
 
 ### 怎么在 Markdown 正文中使用Tex
 
-```
+```tex
 $$ \textbf{LaTex} $$ 
 ```
 
@@ -20,6 +20,6 @@ $$ \textbf{LaTex} $$
 
 ### 怎么在 Markdown 中输入空行
 
-```
+```html
 <br />
 ```
