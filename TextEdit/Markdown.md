@@ -4,9 +4,12 @@
 
 https://www.runoob.com/markdown/md-tutorial.html
 
-<br />
+推荐的Markdown编辑器：
+1. Typora
+2. VS code 中安装Markdown插件
 
-### 怎么在 Markdown 正文中使用Tex
+
+### 数学公式编辑
 
 ```tex
 $$ \textbf{LaTex} $$ 
@@ -14,9 +17,6 @@ $$ \textbf{LaTex} $$
 
 $$ \textbf{LaTex} $$
 
-在若干 “#” 引导的标题中无效。
-
-<br />
 
 ### 怎么在 Markdown 中输入空行
 
