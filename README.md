@@ -31,6 +31,7 @@ git clone https://github.com/tanganke/kyzjnbk 科研仔技能百科
 - [Shell](Shell/Shell.md)
 - [Python](Python/Python.md)
 - [C++](Cpp/Cpp.md)
+- [Mathematica(Wolfram Language)](Mathematica/README.md)
 
 ## 版本控制
 
