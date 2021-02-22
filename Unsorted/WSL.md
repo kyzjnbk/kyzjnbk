@@ -32,5 +32,15 @@ sudo apt update
 
 在 VS Code 扩展栏中搜索 Remote-WSL 扩展并安装。之后即可在 VS Code 的左侧边栏中找到 Remote Explorer 选项，通过 Remote-WSL 连接新安装的 Ubuntu 系统。
 
+## 利用文件资源管理器访问 WSL 中的文件夹
+
+用 VS Code 连接 WSL，在 WSL 中任一文件夹目录下终端运行：
+
+```
+explorer.exe .
+```
+
+即可在文件资源管理器中打开 WSL 中该文件夹的路径，添加到快速访问。
+
 
 
