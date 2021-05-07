@@ -9,7 +9,13 @@ https://www.learnpython.org/ -- Introductory Python 3 tutorials
 https://www.codecademy.com/learn/learn-python -- Free to sign up; introductory Python 2 tutorials (printing is a bit different than Python 3)
 https://www.youtube.com/watch?v=rfscVS0vtbw -- 4.5 hour video covering all the Python basics
 
-## Pip换国内源
+## pip 使用 
+
+```
+https://blog.csdn.net/peiwang245/article/details/98317863
+```
+
+### Pip换国内源
 
 清华源：
 
