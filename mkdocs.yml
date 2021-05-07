@@ -34,6 +34,6 @@ nav:
             - 内网穿透:     Unsorted/nattunnel.md
         - 数据库:
             - EspressoDB:    Unsorted/EspressoDB.md
-repo_url: https://github.com/tanganke/kyzjnbk/tree/mkdocs
+repo_url: https://github.com/tanganke/kyzjnbk
 theme: readthedocs
 
