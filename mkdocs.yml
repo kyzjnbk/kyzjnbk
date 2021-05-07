@@ -21,7 +21,7 @@ nav:
             - Jupyter Notebook: Unsorted/Jupyter Notebook.md
         - Shell:     Shell/Shell.md
         - C++*:      Cpp/Cpp.md
-        - Wolfram Mathematica*: Unsorted/Wolfram Mathematica.md
+        - Wolfram Mathematica*: Mathematica/README.md
     - 版本控制:
         - Git:      VersionControl/git.md
         - GitHub:   Unsorted/GitHub.md
@@ -35,5 +35,5 @@ nav:
         - 数据库:
             - EspressoDB:    Unsorted/EspressoDB.md
 repo_url: https://github.com/tanganke/kyzjnbk
-theme: readthedocs
+theme: windmill
 
