@@ -18,6 +18,7 @@ nav:
     - 编程语言:
         - Python:
             - 入门: Python/Python.md
+            - 菜鸟笔记: Python/tyro_note.md
             - Jupyter Notebook: Unsorted/Jupyter Notebook.md
         - Shell:     Shell/Shell.md
         - C++*:      Cpp/Cpp.md
