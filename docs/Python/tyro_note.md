@@ -248,6 +248,7 @@ print(my_list)
 ```
 
 （2）删除
+
 ```python
 my_list = [1, 2, 3, "A", "B", "C"]
 del myList[2]
@@ -261,6 +262,7 @@ del myList[0:2]
 
 ### 关于“=”
 一个"="意思是赋值，两个"=="意思是判断
+
 ```python
 l1=[1, 32, 2, 24, 4]
 res=min(l1)
@@ -282,7 +284,9 @@ np.arange(1, 5, 1)
 # arange返回一个array对象，也就是数组，但是其中元素跟range一样
 # arange中括号里三个数字分别代表起始值，终值，步长
 ```
+
 ### 关于np.linspace(主要用来创建等差数列)与np.random.uniform（随机均匀分布）
+
 ```python
 import numpy as np
 np.linspace(start, stop, num=50, endpoint=True, retstep=False, )
@@ -343,6 +347,7 @@ input函数接受一个标准输入数据，返回为string类型。不管我们
 在进行input函数的判断时，if 变量名==" "  输入的必须是字符串型，如果想要输入整数型，则可以在变量赋值时在input前面加上int（当我们想要的结果是数字的时候，例如年龄工资等）
 
 字符串
+
 ```python
 name=input('账号:')
 # 终端会先出现  账号：
@@ -354,7 +359,9 @@ else:
     print('登陆失败')
 # 注意if后面的agen  123 的输入都是字符串型，否则会出现变量没有定义的情况
 ```
+
 整数型
+
 ```python
 age=int(input("你的年龄是："))
 # 此时代表字符串型被转化成了整数型
@@ -366,6 +373,7 @@ else:
 ```
 
 ### 结合了input  if  for  while函数的简单代码
+
 ```python
 name=input("用户名:")   #终端输入用户名
 password=input("密码:") #终端输入密码
@@ -429,10 +437,13 @@ pip install numpy/pandas/paramiko
 
 ### 关于画图
 首先需要导入一个模块
+
 ```python
 import matplotlib.pyplot as plt
 ```
+
 1、plt.plot()  点线图
+
 ```python
 plt.plot(x , y, format_string, **kwargs)
 # x表示二维坐标中X轴数据
@@ -473,7 +484,9 @@ plt.lengend(loc="best")   # 图例放在最佳位置
 plt.show()
 
 ```
+
 2、plt.scatter()   散点图
+
 ```python
 plt.scatter(x,y,s,c,marker)
 # s表示散点图标的大小，默认为20
@@ -490,7 +503,9 @@ plt.scatter(x, x**3, s=50, c="b", marker="X",label="heihei")
 plt.legend(loc="best")  #使得图例处于最佳位置
 plt.show()
 ```
+
 3、plt.fill_between()  用颜色填充两条曲线之间的区域
+
 ```python
 plt.fill_between(x,y1,y2,facecolor="",alpha=)
 
@@ -559,6 +574,7 @@ plt.show()
 原理：用计算机模拟的方法产生抽样结果，根据抽样计算参数值，根据模拟次数的增多提高参数值估计的准确性
 
 1、用蒙特卡洛模拟的方法估计π值
+
 ```python 
 import numpy as np
 import matplotlib.pyplot as plt 
@@ -613,6 +629,7 @@ plt.show
 ```
 
 2、用蒙特卡洛模拟计算y=x²在0-1的积分
+
 ```python
 import numpy as np
 import matplotlib.pyplot as plt 
@@ -641,6 +658,7 @@ plt.show()
 
 ## 作业 
 1、对两个有序数组重新排序
+
 ```python
 l2=[92, 93, 96, 98, 101, 102, 103, 104]
 l1=[91, 95, 97, 99, 100]
@@ -678,6 +696,7 @@ print(l3)
 
 
 2、对两个乱序数组重新排序
+
 ```python
 l1=[12, 3, 57, 68, 30]
 l2=[18, 4, 21, 1, 29]
@@ -696,6 +715,7 @@ print(l3)
 
 
 3、如果：成绩>=90，那么：优秀，如果成绩>=80且<90,那么：良好，如果成绩>=70且<80,那么：普通，其他情况：很差，并且到很差的时候退出
+
 ```python
 while True:
     score=int(input(">>>:"))
@@ -713,6 +733,7 @@ while True:
 
 
 4、猜身高，最多可以猜三次  
+
 ```python
 i=1
 while i<=3:
@@ -729,6 +750,7 @@ while i<=3:
 ```
 
 5、
+
 ```python
 name='egon'
 password='123'
@@ -755,6 +777,7 @@ while True:
 
 # 注：无限while循环记得在最后输入break，否则会一直循环下去
 ```
+
 6、升级版猜年龄问题要求：
 
 允许用户最多尝试3次
@@ -764,6 +787,7 @@ while True:
 
 
 如果猜对了，就直接退出 
+
 ```python
 count=1
 while True:
@@ -784,4 +808,4 @@ while True:
         else:
             break
 # 这是一个无限while循环，如果count大于3，执行else语句，如果输入了Y或者y，则需要重新给三次机会，所以最重要的就是重置count的值
-
+```
