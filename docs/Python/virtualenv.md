@@ -23,6 +23,7 @@ virtualenv base
 将在当前位置创建一个名为`base`的环境。
 
 常用参数
+
 - **-p python执行器路径** 为虚拟环境指定Python路径  
 - **--system-site-packages** 允许虚拟环境访问系统包目录，此选项默认为`False`
 
