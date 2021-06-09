@@ -20,6 +20,7 @@ nav:
             - 入门: Python/Python.md
             - 菜鸟笔记: Python/tyro_note.md
             - Jupyter Notebook: Unsorted/Jupyter Notebook.md
+            - 虚拟环境: Python/virtualenv.md
         - Shell:     Shell/Shell.md
         - C++*:      Cpp/Cpp.md
         - Wolfram Mathematica*: Mathematica/README.md
