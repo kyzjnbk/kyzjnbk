@@ -10,6 +10,16 @@
 git clone https://github.com/tanganke/kyzjnbk 科研仔技能百科
 ```
 
+----
+
+## **老三样**
+
+### 1. [**Git**](VersionControl/git.md)
+### 2. [**Linux**](OS/Linux.md)
+### 3. [**Windows**](OS/Windows.md)
+
+----
+
 ## 文本编辑
 
 ### 文本格式
