@@ -9,8 +9,7 @@
 
  下图来自狂神说的图：
 
-<img src="imgs/image-20210422171612291.png" alt="image-20210422171612291" style="zoom:67%;" />
-
+![](imgs/image-20210422171612291.png)
 
 
 **缓存区**
@@ -141,11 +140,11 @@ git push -u origin master     #推送到远端
 
 ## **- 取消add**
 
-> <img src="imgs/image-20210421153759097.png" alt="image-20210421153759097" style="zoom:80%;" />
+> ![](imgs/image-20210421153759097.png)
 >
 > 使用`git reset HEAD`命令，则取消刚才的add。
 >
-> <img src="imgs/image-20210421153902236.png" alt="image-20210421153902236" style="zoom:80%;" />
+> ![](imgs/image-20210421153902236.png)
 
 ## **- 取消commit**
 
@@ -154,10 +153,7 @@ git push -u origin master     #推送到远端
 3. **解释：**假设commit之后，本地仓库变成v6.0。commit之后，本地仓库更新，HEAD就是指向这个v6.0版本。此时暂存区其实也存的是v6.0版本的信息。此时`git reset HEAD`表示将暂存 恢复成HEAD指向的版本呢，即恢复成v6.0版本，当然是没用的。
 4. 若想取消本次commit，需要用`git reset HEAD~1`。表示暂存区恢复到本地仓库的 当前HEAD指向的版本的旧一个版本，即恢复成版本v6.0的前一个版本。
 
-<img src="imgs/image-20210421154430652.png" alt="image-20210421154430652" style="zoom:80%;" />
-
-
-
+![](imgs/image-20210421154430652.png)
 
 
 ## - gitignore大全
