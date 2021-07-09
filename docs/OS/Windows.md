@@ -14,7 +14,7 @@
 
 给系统变量的path添加新的路径的时候，在以下窗口添加的变量不要加最后的分号。网上那些加分号的估计是老的windows版本，没有把每个path展开写，将所有的path写到一行，然后用分号分隔。
 
-​	<img src="windows.assets/1586797143666.png" alt="1586797143666" style="zoom:80%;" />
+![](windows.assets/1586797143666.png)
 
 如图所示：当只用一行展示所有的path的时候，就会用分号将path都分隔。
 
@@ -28,7 +28,7 @@
 
 运行->osk
 
-​	![image-20200219003005421](windows.assets/image-20200219003005421.png)
+![image-20200219003005421](windows.assets/image-20200219003005421.png)
 
 即可调出软键盘：
 
@@ -135,8 +135,8 @@ if %errorlevel% == 1 (
 > 1.右键单击software_reporter_tool.exe选择属性
 > 2.转到“安全”选项卡 
 >
-> ​	<img src="windows.assets/image-20200518134410625.png" alt="image-20200518134410625" style="zoom: 50%;" />
->
+> ![](windows.assets/image-20200518134410625.png)
+> 
 > 4.点击“禁用继承”
 > 5.选择"从此对象中删除所有继承的权限",之后一路点击“确定”“确定”。
 >
@@ -187,53 +187,33 @@ ps：已写百度经验
 
 win10自带的输入法是：微软拼音输入法。默认情况下，该输入法的简繁体切换快捷键是开启的，快捷键为：ctrl+shft+F。但如果用户只使用一种，不需要切换，此时若仍开启着快捷键则会出现用户误按了快捷键的情况，反而造成不方便。因此本经验将介绍win10如何关掉输入法简繁体切换的快捷键。
 
- <img src="windows.assets/image-20201214142906677.png" alt="image-20201214142906677" style="zoom:67%;" />
+![](windows.assets/image-20201214142906677.png)
 
- <img src="windows.assets/image-20201214142549295.png" alt="image-20201214142549295" style="zoom: 80%;" />
+![](windows.assets/image-20201214142549295.png)
 
- 
+![](windows.assets/image-20201214141819190.png)
 
- <img src="windows.assets/image-20201214141819190.png" alt="image-20201214141819190" style="zoom:80%;" />
+![](windows.assets/image-20201214141859267.png)
 
+![](windows.assets/image-20201214142003458.png)
 
+![](windows.assets/image-20201214142154999.png)
 
+![](windows.assets/image-20201214142221288.png)
 
-
- <img src="windows.assets/image-20201214141859267.png" alt="image-20201214141859267" style="zoom:67%;" />
-
-
-
- <img src="windows.assets/image-20201214142003458.png" alt="image-20201214142003458" style="zoom: 50%;" />
-
-
-
- <img src="windows.assets/image-20201214142154999.png" alt="image-20201214142154999" style="zoom:50%;" />
-
-
-
- <img src="windows.assets/image-20201214142221288.png" alt="image-20201214142221288" style="zoom:50%;" />
-
- <img src="windows.assets/image-20201214142252162.png" alt="image-20201214142252162" style="zoom:50%;" />
+![](windows.assets/image-20201214142252162.png)
 
 
 
 ## - windows 添加映射网络驱动
 
- <img src="windows.assets/image-20210301145623213.png" alt="image-20210301145623213" style="zoom:80%;" />
-
-
-
- 
+![](windows.assets/image-20210301145623213.png)
 
 下图那个ip是部署了samba服务的ip地址，记得要勾选“使用其他凭据连接”
 
-<img src="windows.assets/image-20210301145933638.png" alt="image-20210301145933638" style="zoom:80%;" />
+![](windows.assets/image-20210301145933638.png)
 
-
-
-
-
- <img src="windows.assets/image-20210301145527668.png" alt="image-20210301145527668" style="zoom: 80%;" />
+![](windows.assets/image-20210301145527668.png)
 
 ps：我在实验室的samba的密码：123456
 
@@ -267,27 +247,27 @@ U盘安装Win10系统整个过程分三步，虽说讲的很多，但其实操�
 
 1、首先将U盘插入电脑USB接口，然后运行打开UltraISO软碟通工具，点击顶部菜单中的「文件」->「打开」，如图所示。
 
-​	<img src="windows.assets/image-20200223053738784.png" alt="image-20200223053738784" style="zoom: 67%;" />
+![](windows.assets/image-20200223053738784.png)
 
 2、 然后打开找到我们下载的win10系统镜像文件，再点击启动，写入硬盘映像，更改写入方式为USB-HDD+ v2，最后点击写入即可，操作步骤如下图所示。 
 
-·<img src="windows.assets/image-20200223053830811.png" alt="image-20200223053830811" style="zoom:67%;" />
+![](windows.assets/image-20200223053830811.png)
 
-·<img src="windows.assets/image-20200223053840788.png" alt="image-20200223053840788" style="zoom:50%;" />
+![](windows.assets/image-20200223053840788.png)
 
-​	<img src="windows.assets/image-20200223053848300.png" alt="image-20200223053848300" style="zoom:67%;" />
+![](windows.assets/image-20200223053848300.png)
 
  3、接下来等待完成系统镜像写入启动U盘即可，写入完成后就说明原版系统U盘已经做好了，如图所示。 
 
-​	<img src="windows.assets/image-20200223054003850.png" alt="image-20200223054003850" style="zoom:67%;" />
+![](windows.assets/image-20200223054003850.png)
 
-​	<img src="windows.assets/image-20200223054020515.png" alt="image-20200223054020515" style="zoom:67%;" />
+![](windows.assets/image-20200223054020515.png)
 
  值得一提的是，UltraISO将U盘制程成可用于安装系统的启动盘，并写入镜像之前，会格式化U盘。如果你U盘之前存储了重要文件，记得提前备份到其他U盘或者放在网盘或电脑硬盘中，否则会出现数据丢失。制作好的启动U盘，打开之后可以看到原本系统文件和配置文件，这些文件以后都不要去动（删），否则会影响今后安装系统使用。 
 
-​	<img src="windows.assets/image-20200223054701686.png" alt="image-20200223054701686" style="zoom:50%;" />
+![](windows.assets/image-20200223054701686.png)
 
-​	<img src="windows.assets/image-20200223054736379.png" alt="image-20200223054736379" style="zoom:50%;" />
+![](windows.assets/image-20200223054736379.png)
 
 **第二步、设置U盘启动**
 
@@ -303,13 +283,13 @@ UltraISO将U盘制作成启动盘，并写入Windows10原本镜像后，今后�
 
 UEFI启动也就是快启动，可以直接选择进入U盘安装系统。不过，不同电脑开机进入快启动的按键不同，它是根据你的[主板](http://www.ityears.com/tags/2771-0.html)或[笔记本](http://www.ityears.com/notebook/)的品牌来定的，大家可以参考下图中的表格来找出自己电脑的启动键，也可以查询百度。
 
-​	<img src="windows.assets/image-20200223054837859.png" alt="image-20200223054837859" style="zoom:67%;" />
+![](windows.assets/image-20200223054837859.png)
 
 **2、传统BIOS启动**
 
 传统BIOS启动就是先进入电脑Bios设置，然后将电脑第一启动项由默认的 硬盘 设置改成 U盘，并保存并退出，之后重启电脑就可以直接进入U盘系统安装界面了。
 
-​	<img src="windows.assets/image-20200223054919968.png" alt="image-20200223054919968" style="zoom: 67%;" />
+![](windows.assets/image-20200223054919968.png)
 
 
 
@@ -321,39 +301,39 @@ UEFI启动也就是快启动，可以直接选择进入U盘安装系统。不过
 
 1、Win10初始安装界面，一般默认是简体中文，直接点击下一步即可，如图所示。
 
-​	<img src="windows.assets/image-20200223055900256.png" alt="image-20200223055900256" style="zoom:67%;" />
+![](windows.assets/image-20200223055900256.png)
 
  2、接下来选择Win10系统版本，一般建议选择专业版。当然，如果您有家庭版的序列号，那就选家庭版，之后再点下一步，在继续下一步中，选择“自定义安装”，如图所示。 
 
-​	<img src="windows.assets/image-20200223055929156.png" alt="image-20200223055929156" style="zoom:67%;" />
+![](windows.assets/image-20200223055929156.png)
 
-​	<img src="windows.assets/image-20200223055951151.png" alt="image-20200223055951151" style="zoom:67%;" />
+![](windows.assets/image-20200223055951151.png)
 
 
 
 **敲重点！！**，对于那种新建分区的磁盘，这里都是这样，都会提示有问题的。如果，磁盘在这里显示不了，说明这个磁盘还没有创建分区，此时，只要通过PE里的磁盘管理工具，格式化分区，再创建一个分区即可。
 
-​	<img src="windows.assets/image-20200223060033789.png" alt="image-20200223060033789" style="zoom:67%;" />
+![](windows.assets/image-20200223060033789.png)
 
 然后，这里提示：
 
-​	![image-20200223060409420](windows.assets/image-20200223060409420.png)
+![image-20200223060409420](windows.assets/image-20200223060409420.png)
 
 这是因为，磁盘的管理方式不同。解决方法：
 
-​	<img src="windows.assets/image-20200223060507335.png" alt="image-20200223060507335" style="zoom:67%;" />
+![](image-20200223060507335.png)
 
-​	<img src="windows.assets/image-20200223060528054.png" alt="image-20200223060528054" style="zoom:67%;" />
+![](windows.assets/image-20200223060528054.png)
 
-​	<img src="windows.assets/image-20200223060543687.png" alt="image-20200223060543687" style="zoom:67%;" />
+![](windows.assets/image-20200223060543687.png)
 
-​	<img src="windows.assets/image-20200223060638604.png" alt="image-20200223060638604" style="zoom:67%;" />
+![](windows.assets/image-20200223060638604.png)
 
 
 
 然后这里点击 刷新 即可出现刚才分配的那些盘。
 
-​		<img src="windows.assets/image-20200223060730885.png" alt="image-20200223060730885" style="zoom:67%;" />
+![](windows.assets/image-20200223060730885.png)
 
 这里可能会提示 整个盘有些空间没有分配完，解决方案：选中最后一个盘，点击“拓展”，按照操作来，则可成功将剩下的空闲的盘拓展成一个盘，就不会浪费磁盘的空间了。
 
@@ -361,5 +341,5 @@ UEFI启动也就是快启动，可以直接选择进入U盘安装系统。不过
 
 然后就开始安装了。
 
-​	<img src="windows.assets/image-20200223061102153.png" alt="image-20200223061102153" style="zoom:67%;" />
+![](windows.assets/image-20200223061102153.png)
 
