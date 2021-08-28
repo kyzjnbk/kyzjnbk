@@ -4,8 +4,6 @@ Start from a new machine with Windows 10.
 
 ## Winows -> Linux
 
-[微软的官方教程](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
-
 <br />
 
 ### 下载 VS Code
@@ -16,6 +14,9 @@ Download Visual Studio Code from your explorer.
 
 <br />
 
+## [安装 Anaconda](Unsorted/Anaconda.md)
+
+<br />
 
 ## 建立远程连接
 
