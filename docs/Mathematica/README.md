@@ -11,3 +11,4 @@
 ## examples
 
 - [downvalue/upvalue](example-swap.nb)
+- [Mathematica Notebook 中调用 Python](mma_python.pdf)
