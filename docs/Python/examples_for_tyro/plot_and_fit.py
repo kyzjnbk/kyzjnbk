@@ -29,22 +29,24 @@ plt.show()
 
 n = 7 # order of ployfit
 
-f = np.polyfit(x, y, n)
+f = np.polyfit(x, y, n) # 系数列表
 print(f)
+
 p = np.poly1d(f)
+
 print("fit func is \n", p)
 
-fit = f[n]
+fit = f[n] # res = c
 
 for i in range(n):
-    fit += f[i] * x**(n-i)
+    fit += f[i] * x**(n-i) # res = res + b * x; res = res + a * x**2
 
 # %%
 # plot fit on data
 
 plt.figure()
-plt.scatter(x, y, c='blue', marker='x')
-plt.plot(x, fit, 'r-')
+plt.scatter(x, y, c='blue', marker='x', label='data')
+plt.plot(x, fit, 'r-', label='fit')
 plt.grid()
 plt.minorticks_on()
 plt.xlabel('t')
@@ -53,3 +55,6 @@ plt.ylim([0,1])
 plt.xlim([0,11])
 plt.legend()
 plt.show()
+
+
+# %%
