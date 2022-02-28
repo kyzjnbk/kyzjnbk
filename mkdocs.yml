@@ -19,6 +19,7 @@ nav:
             - SSH:  RemoteConnect/ssh.md
             - rdp*:  RemoteConnect/rdp.md
     - 编程语言:
+        - R: R/R.md
         - Python:
             - 入门: Python/Python.md
             - 菜鸟笔记: Python/tyro_note.md

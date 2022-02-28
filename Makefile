@@ -8,5 +8,7 @@ build:
 	$(MKDOCS) build
 .PHONY: build
 
-publish: build
-	sudo rsync -ru site/ /var/www/html/kyzjnbk/
+publish:
+	sudo rsync -ruv site/ /var/www/html/kyzjnbk/
+.PHONY: publish
+
