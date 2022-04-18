@@ -2,9 +2,12 @@
 
 介绍了科研过程中的一些技能，包括操作系统、基础工具和编程语言的使用介绍。
 
-在线文档(Online Webpage): https://kyzjnbk.github.io/kyzjnbk/
+在线文档(Online Webpage): 
 
-# 如何贡献？
+- 基础工具 [https://kyzjnbk.github.io/kyzjnbk/](https://kyzjnbk.github.io/kyzjnbk/)
+- 机器学习 [https://kyzjnbk.github.io/kyzjnbk-ml/](https://kyzjnbk.github.io/kyzjnbk-ml/)
+
+## 如何贡献？(How to contribute?)
 
 随时欢迎任何人提交Pull Request，或者在GitHub上提交Issue。
 

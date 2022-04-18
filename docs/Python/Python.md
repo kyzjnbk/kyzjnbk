@@ -9,15 +9,15 @@ https://www.learnpython.org/ -- Introductory Python 3 tutorials
 https://www.codecademy.com/learn/learn-python -- Free to sign up; introductory Python 2 tutorials (printing is a bit different than Python 3)
 https://www.youtube.com/watch?v=rfscVS0vtbw -- 4.5 hour video covering all the Python basics
 
-## pip 使用 
+## pip 使用
 
 ```
 https://blog.csdn.net/peiwang245/article/details/98317863
 ```
 
-### Pip换国内源
+### pip换国内源
 
-清华源：
+清华源(Linux)：
 
 ```shell
 mkdir ~/.pip && echo -e "[global]\nindex-url = https://pypi.tuna.tsinghua.edu.cn/simple" > ~/.pip/pip.conf
