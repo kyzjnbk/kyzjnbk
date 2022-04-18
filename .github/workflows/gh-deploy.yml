@@ -23,5 +23,5 @@ jobs:
         with:
           python-version: 3.8
       - run: pip install -r requirements.txt
-      - run: mkdocs gh-deploy --force --no-history --remote-branch gp-pages
+      - run: mkdocs gh-deploy --force --no-history --remote-branch gh-pages
 
