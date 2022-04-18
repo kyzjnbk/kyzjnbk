@@ -31,3 +31,9 @@ cd kyzjnbk
 ```shell
 pip3 install -r ./requirements
 ```
+
+在本地实时预览(默认8000端口)：
+
+```shell
+mkdocs serve
+```
