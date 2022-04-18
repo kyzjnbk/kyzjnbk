@@ -40,3 +40,7 @@ pip3 install -r ./requirements
 ```shell
 mkdocs serve
 ```
+
+## 新的主题?
+
+请从[模板仓库](https://github.com/kyzjnbk/kyzjnbk-template)创建.
