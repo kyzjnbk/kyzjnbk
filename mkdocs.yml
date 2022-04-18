@@ -40,6 +40,7 @@ nav:
             - 内网穿透:     Unsorted/nattunnel.md
         - 数据库:
             - EspressoDB:    Unsorted/EspressoDB.md
-repo_url: https://github.com/tanganke/kyzjnbk
+
+repo_url: https://github.com/kyzjnbk/kyzjnbk
 theme: windmill
 
