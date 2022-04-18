@@ -29,7 +29,7 @@ nav:
         - C++*:      Cpp/Cpp.md
         - Wolfram Mathematica*: Mathematica/README.md
     - 版本控制:
-        - Git:      VersionControl/git.md
+        - Git:      Git/Git.md
         - GitHub:   Unsorted/GitHub.md
     - 文档/文献:
         - Zeal:     Unsorted/Zeal.md
@@ -42,5 +42,8 @@ nav:
             - EspressoDB:    Unsorted/EspressoDB.md
 
 repo_url: https://github.com/kyzjnbk/kyzjnbk
-theme: windmill
+theme:
+    name: material
+extra:
+    version: 0.1
 
