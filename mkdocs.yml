@@ -1,23 +1,22 @@
 site_name: 科研仔技能百科
 nav:
-    - Home: README.md
+    - Home: index.md
     - 操作系统:
-        - Windows: OS/Windows.md
-        - Linux: OS/Linux.md
-    - StepByStep: StepByStep.md
+        - Windows:  OS/Windows.md
+        - Linux:    OS/Linux.md
+        - WSL*:     OS/WSL.md
+    - StepByStep:   StepByStep.md
     - 文本编辑: 
         - VSCode:   TextEdit/VSCode.md
         - Markdown: TextEdit/Markdown.md
         - Latex:    TextEdit/Latex.md
-        - Nano*:     TextEdit/Nano.md
-        - Vim*:      TextEdit/Vim.md
-        - sed*:      TextEdit/sed.md
+        - Nano*:    TextEdit/Nano.md
+        - Vim*:     TextEdit/Vim.md
+        - sed*:     TextEdit/sed.md
     - 环境配置:
-        - Linux:    OS/Linux.md
-        - WSL:      Unsorted/WSL.md      
         - 远程连接:
             - SSH:  RemoteConnect/ssh.md
-            - rdp*:  RemoteConnect/rdp.md
+            - rdp*: RemoteConnect/rdp.md
     - 编程语言:
         - R: R/R.md
         - Python:
@@ -26,7 +25,7 @@ nav:
             - Jupyter Notebook: Unsorted/Jupyter Notebook.md
             - 虚拟环境: Python/virtualenv.md
         - Shell:     Shell/Shell.md
-        - C++*:      Cpp/Cpp.md
+        - C++*:      cpp.md
         - Wolfram Mathematica*: Mathematica/README.md
     - 版本控制:
         - Git:      Git/Git.md
@@ -36,8 +35,8 @@ nav:
         - Citavi:   Unsorted/Citavi.md
     - 其他*:
         - 网络相关:
-            - VPN:      Unsorted/VPN.md
-            - 内网穿透:     Unsorted/nattunnel.md
+            - VPN:  Unsorted/VPN.md
+            - 内网穿透: Unsorted/nattunnel.md
         - 数据库:
             - EspressoDB:    Unsorted/EspressoDB.md
 
@@ -54,17 +53,19 @@ markdown_extensions: # https://python-markdown.github.io/extensions/
     - admonition # https://python-markdown.github.io/extensions/admonition
     - attr_list
     - def_list
-    - codehilite
-    - fenced_code
     - toc
     - wikilinks:
         base_url: ./
         end_url: .md
     - pymdownx.highlight:
-        anchor_linenums: true
+        linenums: true
+        linenums_style: pymdownx-inline
+        use_pygments: true
+        auto_title: false
     - pymdownx.inlinehilite
     - pymdownx.snippets
     - pymdownx.superfences
+    - pymdownx.keys
     - pymdownx.arithmatex:
         generic: true
 

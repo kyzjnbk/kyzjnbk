@@ -10,13 +10,10 @@ Start from a new machine with Windows 10.
 
 Download Visual Studio Code from your explorer.
 
-### [配置 WSL](Unsorted/WSL.md)
+### [配置 WSL](OS/WSL.md)
 
-<br />
 
 ## [安装 Anaconda](Unsorted/Anaconda.md)
-
-<br />
 
 ## 建立远程连接
 

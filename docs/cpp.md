@@ -31,3 +31,7 @@
 ### math
 
 - GSL
+
+### Parallel
+
+- [[MPI]]

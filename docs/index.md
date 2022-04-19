@@ -13,13 +13,13 @@
 首先，你应该熟悉你的操作系统，最常见的是[Windows](OS/Windows.md)。
 如果你是计算机方向的科研仔，特别是需要在服务器上进行深度学习、高性能计算的科研仔，那么你应该熟悉[Linux](OS/Linux.md)。
 
-在介绍常用的编程语言如[Python](Python/Python.md)、[C++](Cpp/Cpp.md)之前，
+在介绍常用的编程语言如[Python](Python/Python.md)、[C++](cpp.md)之前，
 建议掌握一些常用的工具，如使用[Visual Studio Code](TextEdit/VSCode.md)进行代码的编辑。
 至于编程语言，没有最好的编程语言，只有最适合自己需求的编程的语言，请根据需求选择。
 
 - 如果你的科研方向只是偶尔需要计算，那么[Python](Python/Python.md)或是MATLAB能很好地满足需求，并且上手难度也不高，教程资源丰富。
-- 如果你从事底层嵌入式编程、图形学或者是高性能并行计算等方向，那么C/[C++](Cpp/Cpp.md)相关的工具(gcc, make, cmake, doxygen)应该被熟练掌握，尽管前期或许会遇到一些困难。
-- 如果你需要在Windows平台编写桌面应用程序，那么C#是不二的选择，而对于跨平台的可视化应用程序，可以优先考虑[C++](Cpp/Cpp.md)，并使用Qt框架。
+- 如果你从事底层嵌入式编程、图形学或者是高性能并行计算等方向，那么C/[C++](cpp.md)相关的工具(gcc, make, cmake, doxygen)应该被熟练掌握，尽管前期或许会遇到一些困难。
+- 如果你需要在Windows平台编写桌面应用程序，那么C#是不二的选择，而对于跨平台的可视化应用程序，可以优先考虑[C++](cpp.md)，并使用Qt框架。
 - 如果你是数学、物理专业的科研仔，需要进行大量的公式推导和符号计算，那么[Mathematica](Mathematica/README.md)或Maple能帮上大忙。
 
 在科研的过程中，良好的笔记习惯也很重要，使用[Markdown](TextEdit/Markdown.md)是一种很好的笔记方式，由于使用纯文本的文件格式，非常方便进行内容的搜索。
@@ -45,13 +45,13 @@
 
 - [Shell](Shell/Shell.md)
 - [Python](Python/Python.md)
-- [C++](Cpp/Cpp.md)
+- [C++](cpp.md)
 - [Mathematica(Wolfram Language)](Mathematica/README.md)
 
 ## 版本控制
 
 - [Git](Git/Git.md)
 
-## 文档阅读
+## API文档
 
 - [Zeal (Windows/Linux)](Unsorted/Zeal.md)
