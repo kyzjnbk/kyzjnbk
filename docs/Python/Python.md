@@ -1,6 +1,14 @@
-# Python3
+# Python
 
 本手册用于整合归纳一些有用或有趣的 Python3 外部链接。
+## Python3 基础教程
+
+There are many online resources for learning the Python language; here are three of the best:
+
+- [Introductory Python 3 tutorials](https://www.learnpython.org/)
+- (Python2) [Free to sign up; introductory Python 2 tutorials (printing is a bit different than Python 3)](https://www.codecademy.com/learn/learn-python)
+- [4.5 hour video covering all the Python basics](https://www.youtube.com/watch?v=rfscVS0vtbw)
+    ![type:video](https://www.youtube.com/embed/rfscVS0vtbw)
 
 ## 安装Python3
 
@@ -23,7 +31,7 @@
 
 ## 配置环境
 
-### 使用conda
+### 使用conda管理环境和包
 
 !!! note
     对于网络不是很好的科研仔，常常需要换国内源:
@@ -71,7 +79,7 @@ conda install pkg_name
 conda install --channel https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/ pytorch
 ```
 
-### 使用pip3
+### 使用pip3管理包
 
 !!! note
     对于网络不是很好的科研仔，常常需要换国内源：
@@ -103,18 +111,39 @@ pip3 uninstall Package
 
 # 查看已经安装的库
 pip3 list
+
+# 导出环境中的包和它们的版本
+pip freeze > requirements.txt
+
+# 在新环境中安装
+pip install -r requirements.txt
 ```
 
-## Python3 基础教程
+### 使用virtualenv管理环境
 
-There are many online resources for learning the Python language; here are three of the best:
+安装virtualenv
 
-- [Introductory Python 3 tutorials](https://www.learnpython.org/)
-- (Python2) [Free to sign up; introductory Python 2 tutorials (printing is a bit different than Python 3)](https://www.codecademy.com/learn/learn-python)
-- [4.5 hour video covering all the Python basics](https://www.youtube.com/watch?v=rfscVS0vtbw)
-    ![type:video](https://www.youtube.com/embed/rfscVS0vtbw)
+```shell
+# 安装virtualenv
+pip3 install virtualenv
+```
 
+```shell
+# 创建虚拟环境
+# 常用参数
+# -p python执行器路径 为虚拟环境指定Python路径  
+# --system-site-packages 允许虚拟环境访问系统包目录，此选项默认为`False`
+virtualenv [-p PythonPath] [--system-site-packages] 环境名
+# 例如，在当前位置创建一个名为`base`的环境。
+virtualenv base
 
+# 激活虚拟环境
+source path_to_activate
+```
+
+将对应目录删除即可删除环境。
+
+<!-- 
 ### 示例代码
 
 - [命令行参数解析](parse_args.py)
@@ -134,5 +163,7 @@ There are many online resources for learning the Python language; here are three
 
 - [numba.cuda](numba/cuda.ipynb)
 
-#### [Tensorflow](tensorflow/Tensorflow.md)
+#### [Tensorflow](tensorflow/Tensorflow.md) 
+
+-->
 

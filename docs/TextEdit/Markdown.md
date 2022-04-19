@@ -1,25 +1,15 @@
 # MarkDown
 
+Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。
+你正在阅读的网页就是由 Markdown 编写的文档。
+
 ## 新手教程
 
-https://www.runoob.com/markdown/md-tutorial.html
+- [菜鸟教程](https://www.runoob.com/markdown/md-tutorial.html)
 
-推荐的Markdown编辑器：
-1. Typora
-2. VS code 中安装Markdown插件
+![type:video](https://www.youtube.com/embed/HUBNt18RFbo)
 
+## 推荐的Markdown编辑器
 
-### 数学公式编辑
-
-```tex
-$$ \textbf{LaTex} $$ 
-```
-
-$$ \textbf{LaTex} $$
-
-
-### 怎么在 Markdown 中输入空行
-
-```html
-<br />
-```
+1. [VS Code](VSCode.md) 中安装Markdown插件
+2. Typora. 正式版需要付费购买。

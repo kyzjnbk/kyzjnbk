@@ -17,6 +17,28 @@ Linux严格来说指Linux系统内核，但是一般交流时却指各种Linux�
 
     在使用管理员权限在执行命令前，请确保明白了命令的含义。
 
+## 文件系统的层次结构标准
+
+Filesystem Hierarchy Standard (FHS) 即文件系统的层次结构标准。
+为什么要弄这个标准？因为方便不同发行版系统之间的使用，比如你创建的系统中系统文件放在哪里我就可以知道，那我使用起来也是比较方便，增强访问性。
+FHS统一各个Linux发行版本的目录结构。
+
+- /bin:系统基本的命令
+- /sbin：系统管理相关的命令
+- /lib64：存放着和系统运行相关的库文件
+- /lib：存放着和系统运行相关的库文件
+- /root:超级用户的目录
+- /home：普通用户的家目录
+- /proc:内核参数和进程信息的映射文件
+- /sys:硬件参数映射文件
+- /media:用来挂载可移动设备，比如：软盘，光盘
+- /mnt:用来挂载普通文件
+- /tmp：临时文件
+- /usr:用户文件
+- /var:某些大文件的溢出区，比如各种服务的日志文件。
+
+![type:video](https://youtube.com/embed/42iQKuQodW4)
+
 ## Ubuntu的包管理
 
 ### apt和apt-get简介
@@ -159,21 +181,6 @@ apt install Package1 [Package2]..
 apt install gcc clang
 ```
 
-## 使用vim编辑文本文件
+## Linux系统编程
 
-**安装**
-
-```bash
-apt install vim
-```
-
-- [Vim教程](https://www.runoob.com/linux/linux-vim.html)
-- [vim 操作命令大全](https://blog.csdn.net/weixin_37657720/article/details/80645991)
-
-!!! caution "++ctrl+s++"
-
-    有时会习惯性地写完程序后按下++ctrl+s++，潜意识地认为这是“保存”
-    反应过来后发觉不对，又开始按esc，结果发现按啥都没反应了
-    查找资料后得知，
-    这是因为++ctrl+s++的组合快捷键在vim中是“阻塞后续输入”的作用
-    可以按++ctrl+q++以取消。
+- [The Linux Programming Interface](https://man7.org/tlpi/)

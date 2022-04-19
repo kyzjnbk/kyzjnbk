@@ -7,21 +7,20 @@ nav:
         - WSL*:     OS/WSL.md
     - StepByStep:   StepByStep.md
     - 文本编辑: 
-        - VSCode:   TextEdit/VSCode.md
+        - VS Code:   TextEdit/VSCode.md
         - Markdown: TextEdit/Markdown.md
         - Latex:    TextEdit/Latex.md
         - Nano*:    TextEdit/Nano.md
         - Vim*:     TextEdit/Vim.md
         - sed*:     TextEdit/sed.md
     - 编程语言:
-        - R: R/R.md
+        - Shell:     Shell/Shell.md
         - Python:
             - 入门: Python/Python.md
             - 菜鸟笔记: Python/tyro_note.md
-            - Jupyter Notebook: Unsorted/Jupyter Notebook.md
-            - 虚拟环境: Python/virtualenv.md
-        - Shell:     Shell/Shell.md
-        - C++*:      cpp.md
+            - Jupyter Notebook: Python/Jupyter.md
+        - C/C++:      cpp.md
+        - R: R/R.md
         - Wolfram Mathematica*: Mathematica/README.md
     - 远程连接:
         - SSH:  RemoteConnect/ssh.md
@@ -50,6 +49,7 @@ extra:
 
 markdown_extensions: # https://python-markdown.github.io/extensions/
     - admonition # https://python-markdown.github.io/extensions/admonition
+                 #  attention, caution, danger, error, hint, important, note, tip, and warning;
     - attr_list
     - def_list
     - toc
