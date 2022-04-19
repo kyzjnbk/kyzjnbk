@@ -37,6 +37,7 @@ nav:
             - 内网穿透: Unsorted/nattunnel.md
         - 数据库:
             - EspressoDB:    Unsorted/EspressoDB.md
+    - Contributing Guidelines: contributing.md
 
 repo_url: https://github.com/kyzjnbk/kyzjnbk
 
@@ -61,10 +62,13 @@ markdown_extensions: # https://python-markdown.github.io/extensions/
         linenums_style: pymdownx-inline
         use_pygments: true
         auto_title: false
+    - pymdownx.details
     - pymdownx.inlinehilite
     - pymdownx.snippets
-    - pymdownx.superfences
     - pymdownx.keys
+    - pymdownx.tabbed:
+        alternate_style: true
+    - pymdownx.superfences
     - pymdownx.arithmatex:
         generic: true
 
