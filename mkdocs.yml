@@ -29,7 +29,7 @@ nav:
         - Wolfram Mathematica*: Mathematica/README.md
     - 版本控制:
         - Git:      Git/Git.md
-        - GitHub:   Unsorted/GitHub.md
+        - GitHub:   Git/GitHub.md
     - 文档/文献:
         - Zeal:     Unsorted/Zeal.md
         - Citavi:   Unsorted/Citavi.md
