@@ -19,18 +19,49 @@
 
 ### 使用conda
 
+!!! note
+    对于网络不是很好的科研仔，常常需要换国内源:
+
+    - [清华源帮助文档](https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/)
 
 ### 使用pip3
 
-[https://blog.csdn.net/peiwang245/article/details/98317863](https://blog.csdn.net/peiwang245/article/details/98317863)
-
 !!! note
-    对于网络不是很好的科研仔，常常需要换国内源，以清华源为例：
+    对于网络不是很好的科研仔，常常需要换国内源：
 
-    Linux用户：
+    - [清华源帮助文档](https://mirrors.tuna.tsinghua.edu.cn/help/pypi/)
+    - [163源(网易)帮助文档](https://mirrors.163.com/.help/pypi.html)
+    - [腾讯云镜像帮助文档](https://mirrors.tencent.com/help/pypi.html)
+    - [阿里云镜像帮助文档](https://developer.aliyun.com/mirror/pypi)
 
-        mkdir ~/.pip && echo -e "[global]\nindex-url = https://pypi.tuna.tsinghua.edu.cn/simple" > ~/.pip/pip.conf
 
+**查看Python包的信息**
+
+    pip3 show Package
+
+**安装Python包**
+
+    pip3 install Package1 [Package2]..
+
+例如我需要安装numpy和scipy，可以这样安装：
+
+    pip3 install numpy scipy
+
+在包名后可以使用运算符来指定版本，例如指定numpy版本为1.16：
+
+    pip3 install numpy==1.16
+
+使用-U参数更新已安装的包，例如更新numpy版本：
+
+    pip3 install -U numpy
+
+**卸载第三方库**
+
+    pip3 uninstall Package
+
+**查看已经安装的库**
+
+    pip3 list
 
 ## Python3基础教程
 
