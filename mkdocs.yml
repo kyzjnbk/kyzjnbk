@@ -42,12 +42,40 @@ nav:
             - EspressoDB:    Unsorted/EspressoDB.md
 
 repo_url: https://github.com/kyzjnbk/kyzjnbk
-theme:
+
+theme: # https://squidfunk.github.io/mkdocs-material/getting-started/
     name: material
+    language: zh # 中文，解决中文搜索问题
+
 extra:
     version: 0.1
 
-markdown_extensions:
-    - admonition
+markdown_extensions: # https://python-markdown.github.io/extensions/
+    - admonition # https://python-markdown.github.io/extensions/admonition
     - attr_list
     - def_list
+    - codehilite
+    - fenced_code
+    - toc
+    - wikilinks:
+        base_url: ./
+        end_url: .md
+    - pymdownx.highlight:
+        anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+    - pymdownx.arithmatex:
+        generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+plugins:
+    - search
+    - git-revision-date-localized # https://github.com/timvink/mkdocs-git-revision-date-localized-plugin
+    - mkdocs-video # https://github.com/soulless-viewer/mkdocs-video
+
+
