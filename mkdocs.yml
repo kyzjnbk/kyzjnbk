@@ -13,10 +13,6 @@ nav:
         - Nano*:    TextEdit/Nano.md
         - Vim*:     TextEdit/Vim.md
         - sed*:     TextEdit/sed.md
-    - 环境配置:
-        - 远程连接:
-            - SSH:  RemoteConnect/ssh.md
-            - rdp*: RemoteConnect/rdp.md
     - 编程语言:
         - R: R/R.md
         - Python:
@@ -27,11 +23,14 @@ nav:
         - Shell:     Shell/Shell.md
         - C++*:      cpp.md
         - Wolfram Mathematica*: Mathematica/README.md
+    - 远程连接:
+        - SSH:  RemoteConnect/ssh.md
+        - RDP(远程Windows桌面)*: RemoteConnect/rdp.md
     - 版本控制:
         - Git:      Git/Git.md
         - GitHub:   Git/GitHub.md
     - 文档/文献:
-        - Zeal:     Unsorted/Zeal.md
+        - Zeal:     zeal.md
         - Citavi:   Unsorted/Citavi.md
     - 其他*:
         - 网络相关:

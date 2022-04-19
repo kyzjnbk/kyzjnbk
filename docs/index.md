@@ -54,4 +54,4 @@
 
 ## API文档
 
-- [Zeal (Windows/Linux)](Unsorted/Zeal.md)
+- [Zeal (Windows/Linux)](zeal.md)
