@@ -9,6 +9,8 @@
 
 ## 如何贡献？(How to contribute?)
 
+[Contributing Guidelines](https://kyzjnbk.github.io/kyzjnbk/contributing/)
+
 随时欢迎任何人提交Pull Request，或者在GitHub上提交Issue。
 
 项目文件目录：

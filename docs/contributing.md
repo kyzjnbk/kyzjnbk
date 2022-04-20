@@ -1,6 +1,37 @@
 # Contributing Guidelines
 
-[![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg)](https://github.com/kyzjnbk/kyzjnbk)
+随时欢迎任何人提交Pull Request，或者在GitHub上提交Issue。
+科研仔在科研过程中遇到的问题也可以提在Issue里，对于有价值的提问，我们会整理归纳成文档。
+
+项目文件目录：
+
+```shell
+.
+├── docs # 文档目录
+├── Makefile
+├── mkdocs.yml # 配置文件，定义了文档的总体目录、远程库位置和视觉主题
+├── README.md # 项目介绍
+└── requirements.txt # 用于安装依赖的Python包
+```
+
+下载此库至本地，并进入目录:
+
+```shell
+git clone https://github.com/kyzjnbk/kyzjnbk
+cd kyzjnbk
+```
+
+环境配置(需要python 3.x)：
+
+```shell
+pip3 install -r ./requirements
+```
+
+在本地实时预览(默认8000端口)：
+
+```shell
+mkdocs serve
+```
 
 ## 基本排版
 
