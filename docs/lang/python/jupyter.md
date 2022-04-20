@@ -2,7 +2,7 @@
 
 交互式、笔记本式的编程环境。
 
-![](images/trynb.png)
+[![try jupyter notebook](jupyter.asserts/trynb.png)](https://jupyter.org/try-jupyter/retro/notebooks/?path=notebooks/Intro.ipynb)
 
 ## Quick Start
 
@@ -19,7 +19,7 @@ jupyter notebook
 
 ![type:video](https://www.youtube.com/embed/HW29067qVWk)
 
-## Jupyter Notebook with [VS Code](../TextEdit/VSCode.md)
+## Jupyter Notebook with [VS Code](/edit/code)
 
 ![type:video](https://www.youtube.com/embed/h1sAzPojKMg)
 

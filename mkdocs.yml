@@ -11,12 +11,12 @@ nav:
         - Linux:    os/linux.md
         - WSL*:     os/wsl.md
     - 文本编辑: 
-        - VS Code:   editor/code.md
-        - Markdown: editor/markdown.md
-        - Latex:    editor/latex.md
-        - Nano*:    editor/nano.md
-        - Vim*:     editor/vim.md
-        - sed*:     editor/sed.md
+        - VS Code:   edit/code.md
+        - Markdown: edit/markdown.md
+        - Latex:    edit/latex.md
+        - Nano*:    edit/nano.md
+        - Vim*:     edit/vim.md
+        - sed*:     edit/sed.md
     - 编程语言:
         - Shell:     lang/bash.md
         - Python:
@@ -40,7 +40,7 @@ nav:
             - VPN:  network/vpn.md
             - 内网穿透: network/nattunnel.md
         - 数据库:
-            - EspressoDB: db/Espresso.md
+            - EspressoDB: db/espresso.md
     - About:
         - about/about.md
         - Contributing: about/contributing.md
