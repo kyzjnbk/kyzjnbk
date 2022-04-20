@@ -1,15 +1,23 @@
+---
+hide:
+  - navigation
+#   - toc
+---
+
 # 科研仔技能百科
 
 [![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg)](https://github.com/kyzjnbk/kyzjnbk)
 
+----
+
 本项目旨在帮助纯小白进阶为科研仔，对分散的诸多教程进行整合、修改和补充。
 
 从一台全新的Windows 10机器起步，我们会尽量介绍所有需要用到的技能和软件，从而实现真正的零基础、一体化教程。
-本篇是根据功能对所有介绍进行整合分类，如果小白想要按步骤操作和学习，请查看 [Step By Step](StepByStep.md)
+本篇是根据功能对所有介绍进行整合分类，如果小白想要按步骤操作和学习，请查看 [Step By Step Guide](get_start.md)。
 
 ----
 
-## 工具链
+## 应该掌握的工具
 
 首先，你应该熟悉你的操作系统，最常见的是[Windows](OS/Windows.md)。
 如果你是计算机方向的科研仔，特别是需要在服务器上进行深度学习、高性能计算的科研仔，那么你应该熟悉[Linux](OS/Linux.md)。
@@ -26,8 +34,8 @@
 在科研的过程中，良好的笔记习惯也很重要，使用[Markdown](TextEdit/Markdown.md)是一种很好的笔记方式，由于使用纯文本的文件格式，非常方便进行内容的搜索。
 另外，如果你需要和他人进行代码（或文档）的共享、协作，那么你应该掌握[Git](Git/Git.md)来进行版本控制，并且了解GitHub、Gitee之类基于[Git](Git/Git.md)的仓库托管网站。
 
-----
 
+<!-- 
 ## 文本编辑
 
 ### 文本格式
@@ -55,4 +63,4 @@
 
 ## API文档
 
-- [Zeal (Windows/Linux)](zeal.md)
+- [Zeal (Windows/Linux)](zeal.md) -->
