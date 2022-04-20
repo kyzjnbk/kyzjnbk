@@ -1,7 +1,10 @@
 # Contributing Guidelines
 
+[![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg)](https://github.com/kyzjnbk/kyzjnbk)
+
 ## 基本排版
 
+- [Markdown Reference](https://commonmark.org/help/)
 - [Material for MkDocs - Reference](https://squidfunk.github.io/mkdocs-material/reference/)
 
 ## 多媒体
@@ -62,3 +65,38 @@
         ```html
         style="width: 100%; height: 500px; max-width: 100%；align:center; padding:20px 0;"
         ```
+
+# Jupyter Notebook
+
+!!! example "Google Colab"
+
+    === "Google Colab"
+
+        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
+
+
+    === "Markdown"
+        The markdown for the badge is the following:
+
+        ```markdown
+        [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
+        ```
+
+
+    === "HTML"
+        The HTML equivalent is:
+
+        ```HTML
+        <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb">
+        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+        </a>
+        ```
+
+    === "说明"
+        图标URL： 
+            
+            https://colab.research.google.com/assets/colab-badge.svg
+
+        链接格式：
+
+            https://colab.research.google.com/github/ORGNAZATION_NAME/REPO_NAME/blob/BRANCH_NAME/PATH_TO_NOTEBOOK

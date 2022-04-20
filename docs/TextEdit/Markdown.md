@@ -6,6 +6,7 @@ Markdown 是一种轻量级标记语言，它允许人们使用易读易写的�
 ## 新手教程
 
 - [菜鸟教程](https://www.runoob.com/markdown/md-tutorial.html)
+- [Markdown Reference](https://commonmark.org/help/)
 
 ![type:video](https://www.youtube.com/embed/HUBNt18RFbo)
 
