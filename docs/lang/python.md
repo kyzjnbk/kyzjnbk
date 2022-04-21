@@ -143,27 +143,82 @@ source path_to_activate
 
 将对应目录删除即可删除环境。
 
-<!-- 
-### 示例代码
+## Python基础
 
-- [命令行参数解析](parse_args.py)
+### 函数
 
-#### 文件IO
+关键字参数
 
-- [读取CSV](csv_io.py)
-- [读写json](json_io.py)
+```python
+#可写函数说明
+def printme( str ):
+    "打印任何传入的字符串"
+    print (str)
+    return
+ 
+# 调用 printme 函数，不加参数会报错
+printme() # ERROR
+printme('123') # OK
+printme(str='123') # OK
+```
 
-#### [numpy](numpy/numpy.md)
+可以对关键字参数设置默认值
 
-#### Python features
+```python
+def printme( str='123' ):
+   	"打印任何传入的字符串"
+    print (str)
+    return
+   
+printme() # OK
+```
 
-- [函数名重载(function overload)](function_overload.py)
+不定长参数
 
-#### CUDA编程
+```python
+def functionname([formal_args,] *var_args_tuple ):
+    # function body
 
-- [numba.cuda](numba/cuda.ipynb)
+def functionname([formal_args,] **var_args_dict ):
+    # function body
+```
 
-#### [Tensorflow](tensorflow/Tensorflow.md) 
+加了星号`*`的参数会以元组(tuple)的形式导入，存放所有未命名的变量参数。
 
--->
+```python
+def printinfo( arg1, *vartuple ):
+    "打印任何传入的参数"
+    print ("输出: ")
+    print (arg1) # 70
+    print (vartuple) # (60, 50)
+ 
+# 调用printinfo 函数
+printinfo( 70, 60, 50 ) 
+```
+
+
+加了两个星号 `**` 的参数会以字典的形式导入。
+
+```python
+def printinfo( arg1, **vardict ):
+    "打印任何传入的参数"
+    print ("输出: ")
+    print (arg1) # 1
+    print (vardict) # { 'a': 2, 'b': 3 }
+ 
+# 调用printinfo 函数
+printinfo(1, a=2,b=3)
+```
+
+批量传递不定长参数
+
+```python
+args = [1,2,3,4]
+f(*args) # f(1,2,3,4)
+```
+
+```python
+kargs = {'a':1, 'b':2}
+f(**kargs) # f(a=1,b=2)
+```
 

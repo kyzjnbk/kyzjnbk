@@ -36,11 +36,13 @@ nav:
         - Zeal:     doc/zeal.md
         - Citavi:   doc/citavi.md
     - 其他*:
-        - 网络相关: 
+        - 网络: 
             - VPN:  network/vpn.md
             - 内网穿透: network/nattunnel.md
         - 数据库:
             - EspressoDB: db/espresso.md
+        - 嵌入式:
+            - ESP32: embed/esp32.md
     - About:
         - about/about.md
         - Contributing: about/contributing.md

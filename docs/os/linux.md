@@ -181,6 +181,34 @@ apt install Package1 [Package2]..
 apt install gcc clang
 ```
 
+## 常用工具
+
+### gzip
+
+```bash
+gzip [OPTION] ... [FILE] ...
+```
+
+压缩
+
+压缩单个目标, 压缩为 .gz 文件 源文件会消失，如压缩 example.txt成example.txt.gz
+
+```bash
+gzip example.txt # example.txt(不保留) -> example.txt.gz
+```
+
+- -k, --keep: 保留源文件
+- -c, --stdout: 输出结果至stdout, 保留同时源文件
+- -r, --recusive: 目标是一个目录，则对目录下所有文件遍历压缩操作，不会压缩目录
+
+解压
+
+- -d, --decompress: 解压，与压缩类似，如果不提供-k或-c参数，则不保留源文件
+
+```bash
+gzip -d XXX.gz # XXX.gz(不保留) -> XXX
+```
+
 ## Linux系统编程
 
 - [The Linux Programming Interface](https://man7.org/tlpi/)
