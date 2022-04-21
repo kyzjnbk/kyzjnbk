@@ -42,6 +42,7 @@ nav:
         - 数据库:
             - EspressoDB: db/espresso.md
         - 嵌入式:
+            - embed/index.md
             - ESP32: embed/esp32.md
     - About:
         - about/about.md
