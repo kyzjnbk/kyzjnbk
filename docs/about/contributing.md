@@ -24,7 +24,7 @@ cd kyzjnbk
 环境配置(需要python 3.x)：
 
 ```shell
-pip3 install -r ./requirements
+pip3 install -r ./requirements.txt
 ```
 
 在本地实时预览(默认8000端口)：
