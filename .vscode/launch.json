@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "mkdocs serve",
+            "type": "python",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "module": "mkdocs",
+            "args": ["serve"],
+            "justMyCode": false
+        }
+    ]
+}
