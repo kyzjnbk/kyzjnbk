@@ -5,7 +5,10 @@
 在线文档(Online Webpage): 
 
 - 基础工具 [https://kyzjnbk.github.io/kyzjnbk/](https://kyzjnbk.github.io/kyzjnbk/)
+- 数学 [https://kyzjnbk.github.io/kyzjnbk-math/](https://kyzjnbk.github.io/kyzjnbk-math/)
+- 算法 [https://kyzjnbk.github.io/kyzjnbk-algo/](https://kyzjnbk.github.io/kyzjnbk-algo/)
 - 机器学习 [https://kyzjnbk.github.io/kyzjnbk-ml/](https://kyzjnbk.github.io/kyzjnbk-ml/)
+- 高能理论（格点） [https://kyzjnbk.github.io/kyzjnbk-hep-th/](https://kyzjnbk.github.io/kyzjnbk-hep-th/)
 
 ## 如何贡献？(How to contribute?)
 
