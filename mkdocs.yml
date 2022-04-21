@@ -5,7 +5,10 @@ copyright: Copyright &copy; 2020 - 2022 kyzjnbk
 
 # 目录树
 nav:
-    - Home: index.md
+    - Home: 
+        - index.md
+        - 数学: https://kyzjnbk.github.io/kyzjnbk-math
+        - 算法: https://kyzjnbk.github.io/kyzjnbk-algo
     - 操作系统:
         - Windows:  os/windows.md
         - Linux:    os/linux.md

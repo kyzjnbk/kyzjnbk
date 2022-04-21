@@ -1,8 +1,8 @@
----
+<!-- ---
 hide:
-  - navigation
+    - navigation
 #   - toc
----
+--- -->
 
 [Windows]: os/windows
 [Markdown]: edit/markdown
