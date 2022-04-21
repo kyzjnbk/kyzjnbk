@@ -1,4 +1,9 @@
 # %%
+
+'''
+How to realize Monte Carlo in Python
+'''
+
 import numpy as np
 import matplotlib.pyplot as plt 
 
