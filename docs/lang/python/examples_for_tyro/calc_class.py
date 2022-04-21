@@ -1,4 +1,9 @@
 # %%
+
+'''
+How to use class
+'''
+
 def cal(x, y, kind):
     if kind == '+':
         val = x + y
