@@ -87,6 +87,9 @@ theme: # https://squidfunk.github.io/mkdocs-material/getting-started/
 
 # Extensions
 markdown_extensions:
+    - pymdownx.snippets:
+        base_path: ['docs' ,'.']
+        check_paths: true
     - abbr
     - admonition
     - attr_list
