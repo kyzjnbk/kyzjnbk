@@ -9,15 +9,35 @@
 
 ## 编译器
 
-- MSVC (Windows)
-- **gcc/g++**
-- clang
+### MSVC (Windows)
+
+### gcc/g++
+
+### clang/clang++ (LLVM)
 
 ## 构建工具
 
-- Visual Studio (Windows)
-- GNU make
-- **cmake**
+###Visual Studio (Windows)
+
+### GNU make
+
+### cmake
+  
+!!! note "cmake-init"
+    推荐搭配使用的软件：[cmake-init](https://github.com/friendlyanon/cmake-init)。帮助您快速创建一个cmake工程。
+    ![](cpp.asserts/cmake-init_example.gif)
+
+    需要python3>=3.8，安装:
+
+    ```bash
+    pip3 install cmake-init
+    ```
+
+## 代码规范
+
+### clang-format
+
+
 
 ## 实用库
 
