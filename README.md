@@ -1,3 +1,7 @@
+![GitHub Stars](https://img.shields.io/github/stars/kyzjnbk/kyzjnbk)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/kyzjnbk/kyzjnbk)
+![GitHub Contributors](https://img.shields.io/github/contributors/kyzjnbk/kyzjnbk)
+
 # 科研仔技能百科(kyzjnbk)
 
 介绍了科研过程中的一些技能，包括操作系统、基础工具和编程语言的使用介绍。
