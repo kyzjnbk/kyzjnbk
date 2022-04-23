@@ -15,6 +15,20 @@
 
 ### clang/clang++ (LLVM)
 
+## 包管理
+
+### vcpkg
+
+- [中文指南](https://github.com/microsoft/vcpkg/blob/master/README_zh_CN.md) C++ Library Manager for Windows, Linux, and MacOS
+
+### apt(Debian,Ubuntu)
+
+```bash
+sudo apt install libxxx-dev
+```
+
+### yum(CentOS,Fedora)
+
 ## 构建工具
 
 ###Visual Studio (Windows)
@@ -41,6 +55,55 @@
 
 ## 实用库
 
+### CLI
+
+- [p-ranav/structopt](https://github.com/p-ranav/structopt)
+
+    ??? example
+    
+        ```cpp title="main.cpp"
+        #include <structopt/app.hpp>
+
+        struct FileOptions {
+            // Positional arguments
+            // ./main <input_file> <output_file>
+            std::string input_file;
+            std::string output_file;
+        };
+        STRUCTOPT(FileOptions, input_file, output_file);
+
+        int main(int argc, char *argv[]) {
+
+            try {
+                auto options = structopt::app("my_app").parse<FileOptions>(argc, argv);
+
+                // Print parsed arguments:
+                std::cout << "\nInput file  : " << options.input_file << "\n";
+                std::cout << "Output file : " << options.output_file << "\n";
+
+            } catch (structopt::exception& e) {
+                std::cout << e.what() << "\n";
+                std::cout << e.help();
+            }
+        }
+        ```
+
+        ```bash title="usage"
+        foo@bar:~$ ./main foo.txt bar.csv
+
+        Input file  : foo.txt
+        Output file : bar.csv
+
+        foo@bar:~$ ./main foo.csv
+        Error: expected value for positional argument `output_file`.
+
+        USAGE: ./my_app input_file output_file
+
+        ARGS:
+            input_file
+            output_file
+        ```
+
 ### GUI
 
 - ImGui
@@ -62,3 +125,5 @@
 ### Parallel
 
 - [MPI](mpi)
+- [bshoshany/thread-pool](https://github.com/bshoshany/thread-pool)
+
