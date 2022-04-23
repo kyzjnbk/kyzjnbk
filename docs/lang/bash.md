@@ -1,4 +1,4 @@
-# Shell
+# Bash Shell Script
 
 ## 相关教程
 
@@ -18,4 +18,5 @@ ubuntu 安装:
 sudo apt install zsh
 ```
 
-
+!!! note "Powerline Fonts"
+    一些主题需要安装Powerline字体，推荐安装GitHub上的[nerd-fonts](https://github.com/ryanoasis/nerd-fonts)。下载后，执行目录下的install.ps1脚本即可(Linux下是install.sh)。
