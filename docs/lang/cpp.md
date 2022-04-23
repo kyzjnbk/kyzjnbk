@@ -35,7 +35,7 @@ sudo apt install libxxx-dev
 
 ### GNU make
 
-### cmake
+### CMake
   
 !!! note "cmake-init"
     推荐搭配使用的软件：[cmake-init](https://github.com/friendlyanon/cmake-init)。帮助您快速创建一个cmake工程。
@@ -111,6 +111,7 @@ sudo apt install libxxx-dev
 
 ### CG / Physic simulation
 
+- glm
 - igl
 - bullet
 
@@ -121,6 +122,7 @@ sudo apt install libxxx-dev
 ### math
 
 - GSL
+- Eigen
 
 ### Parallel
 
