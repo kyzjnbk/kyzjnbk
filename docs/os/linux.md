@@ -211,4 +211,34 @@ gzip -d XXX.gz # XXX.gz(不保留) -> XXX
 
 ## Linux系统编程
 
+??? cite "鸟哥的私房菜"
+    
+    https://linux.vbird.org/linux_basic/centos7/0540kernel.php
+
 - [The Linux Programming Interface](https://man7.org/tlpi/)
+
+
+## kernel
+
+源码下载：[https://www.kernel.org/](https://www.kernel.org/)
+
+源码目录说明：
+
+- arch ：与硬体平台有关的项目，大部分指的是CPU 的类别，例如x86, x86_64, Xen 虚拟支援等；
+- block ：与区块装置较相关的设定资料，区块资料通常指的是大量储存媒体！还包括类似ext3 等档案系统的支援是否允许等。
+- crypto ：核心所支援的加密的技术，例如md5 或者是des 等等；
+- Documentation ：与核心有关的一堆说明文件，若对核心有极大的兴趣，要瞧瞧这里！
+- drivers ：一些硬体的驱动程式，例如显示卡、网路卡、PCI 相关硬体等等；
+- firmware ：一些旧式硬体的微指令码(韧体) 资料；
+- fs ：核心所支援的filesystems ，例如vfat, reiserfs, nfs 等等；
+- include ：一些可让其他程序呼叫的标头(header) 定义资料；
+- init ：一些核心初始化的定义功能，包括挂载与init 程式的呼叫等；
+- ipc ：定义Linux 作业系统内各程序的沟通；
+- kernel ：定义核心的程序、核心状态、执行绪、程序的排程(schedule)、程序的讯号(signle) 等
+- lib ：一些函式库；
+- mm ：与记忆体单元有关的各项资料，包括swap 与虚拟记忆体等；
+- net ：与网路有关的各项协定资料，还有防火墙模组(net/ipv4/netfilter/*) 等等；
+- security ：包括selinux 等在内的安全性设定；
+- sound ：与音效有关的各项模组；
+- virt ：与虚拟化机器有关的资讯，目前核心支援的是KVM (Kernel base Virtual Machine)
+
