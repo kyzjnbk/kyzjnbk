@@ -38,6 +38,8 @@ nav:
     - 文档/文献:
         - Zeal:     doc/zeal.md
         - Citavi:   doc/citavi.md
+    - 延年益寿:
+        - life/index.md
     - 其他*:
         - 网络: 
             - VPN:  network/vpn.md
