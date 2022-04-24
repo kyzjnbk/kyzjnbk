@@ -1,4 +1,5 @@
-mkdocs
-mkdocs-material
+mkdocs==1.3.0
+mkdocs-material==2.11.2
 mkdocs-git-revision-date-localized-plugin
 mkdocs-video
+pygments==8.2.9
