@@ -44,8 +44,7 @@ There are many online resources for learning the Python language; here are three
 
 ```bash
 # 创建一个名为 my_env_name 的环境，用python 3.7 版本
-# 删除环境则将对应目录删除即可。一般为 “conda安装位置/envs/my_env_name”
-conda create -n my_env_name python3.7
+conda create -n my_env_name python=3.7
 
 # 或从已有环境克隆，创建新的环境
 conda create -n new_env_2 --clone env_name
@@ -58,6 +57,9 @@ conda env list
 
 # 退出激活的环境
 conda deactivate
+
+# 删除环境
+conda env remove -n my_env_name --all
 
 # 导出环境为 my_env_name.yml 文件
 conda env export > my_env_name.yml
