@@ -12,8 +12,9 @@ There are many online resources for learning the Python language; here are three
 
 ## Tyro Notes
 
-- [Python 基础笔记](docs/lang/python/tyro_note.md)
-- [爬虫入门笔记](docs/lang/python/spider/spider_note_for_tyro.md)
+- [Python 基础笔记](lang/python/tyro_note.md)
+- [爬虫入门笔记](lang/python/spider/spider_note_for_tyro.md)
+- [一些实用的代码实例](https://github.com/kyzjnbk/kyzjnbk/tree/master/docs/lang/python/examples_for_tyro)
 
 ## 安装Python3
 
