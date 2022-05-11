@@ -10,6 +10,11 @@ There are many online resources for learning the Python language; here are three
 - [4.5 hour video covering all the Python basics](https://www.youtube.com/watch?v=rfscVS0vtbw)
     ![type:video](https://www.youtube.com/embed/rfscVS0vtbw)
 
+## Tyro Notes
+
+- [Python 基础笔记](docs/lang/python/tyro_note.md)
+- [爬虫入门笔记](docs/lang/python/spider/spider_note_for_tyro.md)
+
 ## 安装Python3
 
 我建议安装 [Anaconda](https://www.anaconda.com/)，它提供了一个简单的初始环境并自带常用的计算库，可以让你快速安装 Python 和相关的第三方库。
