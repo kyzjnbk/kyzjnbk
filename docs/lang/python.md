@@ -1,6 +1,6 @@
 # Python
 
-本手册用于整合归纳一些有用或有趣的 Python3 外部链接。
+本手册用于整合归纳一些有用或有趣的 Python 外部链接。
 ## Python3 基础教程
 
 There are many online resources for learning the Python language; here are three of the best:
