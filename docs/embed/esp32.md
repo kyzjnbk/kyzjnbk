@@ -59,6 +59,12 @@ rshell -p /dev/ttyUSB0
 cp main.py /pyboard
 ```
 
+获取MicroPython REPL终端
+
+```shell
+repl
+```
+
 ### Micropython API docs
 
 * [official](http://docs.micropython.org/en/latest/esp32/quickref.html)
