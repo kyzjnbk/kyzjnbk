@@ -1,6 +1,6 @@
 # Python
 
-本手册用于整合归纳一些有用或有趣的 Python3 外部链接。
+本手册用于整合归纳一些有用或有趣的 Python 外部链接。
 ## Python3 基础教程
 
 There are many online resources for learning the Python language; here are three of the best:
@@ -9,6 +9,12 @@ There are many online resources for learning the Python language; here are three
 - (Python2) [Free to sign up; introductory Python 2 tutorials (printing is a bit different than Python 3)](https://www.codecademy.com/learn/learn-python)
 - [4.5 hour video covering all the Python basics](https://www.youtube.com/watch?v=rfscVS0vtbw)
     ![type:video](https://www.youtube.com/embed/rfscVS0vtbw)
+
+## Tyro Notes
+
+- [Python 基础笔记](lang/python/tyro_note.md)
+- [爬虫入门笔记](lang/python/spider/spider_note_for_tyro.md)
+- [一些实用的代码实例](https://github.com/kyzjnbk/kyzjnbk/tree/master/docs/lang/python/examples_for_tyro)
 
 ## 安装Python3
 

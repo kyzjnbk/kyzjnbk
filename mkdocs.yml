@@ -24,8 +24,10 @@ nav:
         - Shell:     lang/bash.md
         - Python:
             - 入门: lang/python.md
-            - 菜鸟笔记: lang/python/tyro_note.md
+            - Python 基础笔记: lang/python/tyro_note.md
+            - 爬虫入门笔记: lang/python/spider/spider_note_for_tyro.md
             - Jupyter Notebook: lang/python/jupyter.md
+            - Useful examples: https://github.com/kyzjnbk/kyzjnbk/tree/master/docs/lang/python/examples_for_tyro
         - C/C++:      lang/cpp.md
         - R: lang/r.md
         - Wolfram Mathematica*: lang/mathematica.md
