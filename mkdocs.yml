@@ -25,6 +25,9 @@ nav:
         - Python:
             - 入门: lang/python.md
             - Python 基础笔记: lang/python/tyro_note.md
+            - 最佳实践: lang/python/best_practices.md
+            - 包管理指南: lang/python/package_management.md
+            - 数据可视化指南: lang/python/visualization.md
             - 爬虫入门笔记: lang/python/spider/spider_note_for_tyro.md
             - Jupyter Notebook: lang/python/jupyter.md
             - Useful examples: https://github.com/kyzjnbk/kyzjnbk/tree/master/docs/lang/python/examples_for_tyro
